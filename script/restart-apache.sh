@@ -1,2 +1,2 @@
-#! bin/blash
+#! bin/bash
  sudo systemctl restart httpd
