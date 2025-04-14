@@ -6,6 +6,6 @@ files:
 
 hooks:
   AfterInstall:
-    - location: scripts/restart_apache.sh
+    - location: script/restart-apache.sh
       timeout: 300
       runas: root
