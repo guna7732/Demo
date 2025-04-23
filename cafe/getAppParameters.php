@@ -62,6 +62,6 @@ catch (Exception $e) {
   $db_password = '';
   $showServerInfo = '';
   $timeZone = '';
-  $currency = '';
+  $currency = '';
 }
 ?>
