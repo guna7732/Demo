@@ -32,7 +32,7 @@ jobs:
       - name: Build and push Docker image to ECR
         env:
           ECR_REGISTRY: 522814694727.dkr.ecr.us-east-2.amazonaws.com
-          ECR_REPOSITORY: ES2
+          ECR_REPOSITORY: cafe
           IMAGE_TAG: ${{ github.sha }}
         run: |
           # Build the image with both 'latest' and commit SHA tags
